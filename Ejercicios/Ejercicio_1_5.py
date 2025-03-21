@@ -6,3 +6,4 @@ Tome como entrada dos números, realice la
 división entre ellos y entregue al usuario un texto 
 descriptivo con la comprobación de la división. 
 '''
+
