@@ -39,3 +39,6 @@ La anterior instrucción muestra la prueba de la división. Al aplicar 6%2 encon
 como respuesta 3, si aplicamos 3*2= 6 y 6 más 0 tenemos el resultado de 6 que 
 es la prueba de la división
 '''
+
+#Otro Resultado
+
