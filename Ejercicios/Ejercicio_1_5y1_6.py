@@ -42,3 +42,22 @@ es la prueba de la división
 
 #Otro Resultado
 
+x=6 #dividendo
+y=2 #divisor
+
+x=int(input("favor entregar dividendo")) #dividendo
+y=int(input("favor entregar divisor")) #divisor
+
+print("Dividimos dos numeros,",x,"entre",y)
+
+#cociente
+cociente=x/y
+print("el cociente es:", cociente)
+
+#residuo
+residuo= x%y
+print("el residuo es:", residuo)
+
+#final= y*cociente+residuo
+#print("aplicamos la formula 'Divisor * cociente + residuo' se obtiene el dividendo:",Final")
+
