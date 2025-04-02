@@ -22,15 +22,15 @@ print(nombre[0])
 '''
 python es un lenguaje indexado en cero
 '''
-print(nombre[4])
+# print(nombre[4])
 #print(nombre[15])
-print(nombre[-1])
+# print(nombre[-1])
 
 #slicing de cadenas (porción de la cadena) usamos los [] y el parentesis
-print(nombre[:])
-print(nombre[0:3]) #esta forma de porcionas no incluye el extremo derecho (Mar)
-print(nombre[2:4]) #ri
-print(nombre[0:-4]) #la ultima posición no la incluye (Maria S)
+# print(nombre[:])
+# print(nombre[0:3]) #esta forma de porcionas no incluye el extremo derecho (Mar)
+# print(nombre[2:4]) #ri
+# print(nombre[0:-4]) #la ultima posición no la incluye (Maria S)
 
 nombre= "Maria S o f i a"
 #                   -4 -3 -2 -1   
@@ -40,9 +40,9 @@ nombre= "Maria S o f i a"
 '<class 'float'> : se refiere anumeros flotantes que contienen dacimales'
 '''
 x=5
-print(type(x))
+#print(type(x))
 y=5.0
-print(type(y))
+#print(type(y))
 
 '''
 datos boolean
@@ -52,8 +52,8 @@ True
 False
 '''
 asistencia=True
-print(type(asistencia))
-print(not asistencia)
+#print(type(asistencia))
+#print(not asistencia)
 
 '''
 TIPOS DE ESTRUCTURAS
@@ -70,8 +70,8 @@ se utilizan para almacenar infromación cuando no interesa el orden ni la posici
 no permite valores duplicados
 <class 'set'>
 '''
-conjunto_1={"a","b","c"}
-conjunto_2={"d","e","f"}
+#conjunto_1={"a","b","c"}
+#conjunto_2={"d","e","f"}
 
 #print(type(conjunto_1))
 #print(conjunto_1)
@@ -118,14 +118,35 @@ TUPLAS
 son estructuras en pythonmás rígidas,son inmutables,
 almacenan distintos tipos de datos
 '''
-tupla_1=(1,1,1,1,1,1,1,1,1,1,"b",true) 
+#tupla_1=(1,1,1,1,1,1,1,1,1,1,"b",true) 
 #numeros letras booleanos
-print(type(tupla_1))
-print(tupla_1.count("b"))  
+#print(type(tupla_1))
+#print(tupla_1.count("b"))  
 #devuelve el numero de ocurrencia de un valor
 
-print(tupla_1.index("b"))
+#print(tupla_1.index("b"))
 
+'''
+Uso de listas
+[] se definen asi con corchetes
+'''
 
+mi_lista=[9,5,8,15,True] #con las comillas seria un texto, en este caso se hace con boolan
+print(mi_lista)
+print(len(mi_lista)) #función de python len (longitud)
+mi_lista.append(False) #alica un método a la lista
+print(sum(mi_lista)) #función de python sum
 
+'''
+uso de diccionario'''
+'''se define con llaves{} y necesita un valor {clave:valor}'''
+
+estudiantes={"andres": {"edad":25, "ciudad origen":"cali"}, "jose":22, "diana":26}
+print(estudiantes.keys())
+print(estudiantes.values())
+print(estudiantes.pop("diana")) #remover un dato
+print(estudiantes)
+
+#listas conjunto de elementos para un orden
+#diccionario para hacer un poco mas de detalle en un elemento, nombres y datos, edad
 
