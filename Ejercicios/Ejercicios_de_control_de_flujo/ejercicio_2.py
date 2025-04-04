@@ -16,3 +16,4 @@ elif edad in adulto:
     print("es adulto")
 else:
     print("es adulto mayor")
+    
